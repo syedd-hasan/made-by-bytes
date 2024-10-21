@@ -1,0 +1,99 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper .swiper-button-prev, .swiper-rtl .swiper-button-next {
+    background: #1d37ec !important;
+    padding: 20px !important;
+    border-radius: 500px !important;
+    color: white !important;
+}
+
+.swiper .swiper-button-prev:after, .swiper-rtl .swiper-button-next:after {
+  content: 'prev' !important;
+  font-size: 17px !important;
+  font-weight: bold !important;
+}
+.swiper .swiper-button-next, .swiper-rtl .swiper-button-next {
+    background: #1d37ec !important;
+    padding: 20px !important;
+    border-radius: 500px !important;
+    color: white !important;
+}
+
+.swiper .swiper-button-next:after, .swiper-rtl .swiper-button-next:after {
+  content: 'next' !important;
+  font-size: 17px !important;
+  font-weight: bold !important;
+}
+
+.second-sec-card-main-div:hover {
+  border-bottom-left-radius: 150px;
+}
+.second-sec-card-main-div:hover img{
+  border-bottom-left-radius: 150px;
+}
+.second-sec-card-main-div:hover p{
+  color: white;
+}
+.second-sec-card-main-div:hover svg{
+  display: block;
+}
+
+.faq-sec-main-div {
+  transition: background-color 0.3s ease;
+}
+
+.faq-sec-main-div:hover h5 {
+  color: #8c3ded;
+  transition: color 0.3s ease;
+}
+
+.faq-sec-main-div:hover img {
+  display: block;
+  opacity: 1;
+  transition: opacity 0.3s ease; 
+}
+
+img {
+  display: none;
+  opacity: 0; 
+}
