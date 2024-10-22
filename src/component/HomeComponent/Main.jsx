@@ -2,6 +2,7 @@ import React, { useRef, useState } from "react";
 import { FaArrowRight } from "react-icons/fa";
 import { IoIosArrowDown } from "react-icons/io";
 import { MdNavigateNext } from "react-icons/md";
+import bgImg from "../assets/images/bg-img-2.png";
 import boltshift from "../assets/images/boltshift.png";
 import featherDev from "../assets/images/feather-dev.png";
 import globalBank from "../assets/images/global-bank.png";
@@ -34,8 +35,19 @@ export const Main = ({ scrollToSection }) => {
             className="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]"
           />
         </div>
-        <div className=" mx-auto  ">
-          <div className="text-center flex flex-col items-center">
+        <div
+          className=" mx-auto relative "
+          // style={{
+          //   background: `url(${bgImg}) no-repeat right`,
+          //   backgroundSize: "250px",
+          //   // opacity: 0.7,
+          // }}
+        >
+          <div className="absolute hidden md:block right-[5%] top-[25%] md:w-[200px] rotate-animation">
+            <img src={bgImg} alt="img" />
+          </div>
+
+          {/* <div className="text-center flex flex-col items-center">
             <h1 className="text-4xl font-bold  text-gray-900 xl:text-[90px] md:text-[70px] uppercase leading-normal">
               Crafting solutions, <br /> one{" "}
               <span className="rounded-md bg-indigo-600 px-3.5 rotate-2 font-semibold text-white shadow-sm">
@@ -91,7 +103,68 @@ export const Main = ({ scrollToSection }) => {
                 <IoIosArrowDown className="text-[#1d37ec] text-md" />
               </span>
             </button>
+          </div> */}
+
+          <div className="text-center flex flex-col items-center">
+            <h1 className="text-4xl font-bold text-gray-900 xl:text-[90px] md:text-[70px] text-[50px] leading-normal uppercase">
+              Crafting solutions, <br /> one{" "}
+              <span className="rounded-md bg-indigo-600 px-3.5 rotate-2 font-semibold text-white shadow-sm">
+                byte
+              </span>{" "}
+              at a time.
+            </h1>
+            <p className="mt-4 w-full md:w-[60%] text-center px-4">
+              Leverage our expertise and the skills of our top-tier developers
+              to drive your business forward with custom web development, mobile
+              applications, and resource augmentation services. Let us help you
+              unlock the full potential of your digital transformation.
+            </p>
           </div>
+
+          <div className="md:mt-[70px] mt-6 flex flex-col md:flex-row items-center justify-center gap-6 w-full md:w-[70%] px-4">
+            <div className="md:w-[40%]">
+              <div className="flex gap-3 items-center">
+                <div className="flex -space-x-1 overflow-hidden">
+                  <img
+                    alt=""
+                    src="https://images.unsplash.com/photo-1491528323818-fdd1faba62cc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+                    className="inline-block h-8 w-8 rounded-full ring-2 ring-white"
+                  />
+                  <img
+                    alt=""
+                    src="https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+                    className="inline-block h-8 w-8 rounded-full ring-2 ring-white"
+                  />
+                  <img
+                    alt=""
+                    src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2.25&w=256&h=256&q=80"
+                    className="inline-block h-8 w-8 rounded-full ring-2 ring-white"
+                  />
+                  <img
+                    alt=""
+                    src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+                    className="inline-block h-8 w-8 rounded-full ring-2 ring-white"
+                  />
+                </div>
+                <h6 className="text-black">90k + reviews</h6>
+              </div>
+              <p className="mt-6 text-lg leading-8 text-gray-600">
+                Our UX design services focus on creating intuitive and
+                user-friendly interfaces that optimize customer satisfaction.
+              </p>
+            </div>
+
+            <button
+              onClick={handleScroll}
+              className="mt-4 md:mt-0 text-md font-semibold leading-6 text-white flex w-max items-center gap-3 py-1 px-3 bg-[#1d37ec] rounded-full"
+            >
+              Scroll Down
+              <span aria-hidden="true" className="bg-white p-1 rounded-full">
+                <IoIosArrowDown className="text-[#1d37ec] text-md" />
+              </span>
+            </button>
+          </div>
+
           <div className=" py-24 sm:py-20">
             <div className="mx-auto max-w-7xl px-6 lg:px-8">
               <h2 className="text-center text-2xl font-bold leading-8 text-gray-900 capitalize">

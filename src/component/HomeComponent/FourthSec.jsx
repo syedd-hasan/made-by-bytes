@@ -3,14 +3,16 @@ import icon from "../assets/images/feedback-icon.png";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
+import "swiper/css/navigation";
 import "./fourthSec.css";
+import { Navigation } from "swiper/modules";
 
 export const FourthSec = () => {
   const [activeIndex, setActiveIndex] = useState(0);
   return (
     <>
-      <div className="container mx-auto md:my-[60px]">
-        <div className="grid grid-cols-2">
+      <div className="container mx-auto md:my-[60px] mb-[30px]">
+        <div className="grid md:grid-cols-2">
           <h2 className="text-2xl font-bold  text-gray-900 xl:text-[65px] md:text-[50px] uppercase leading-normal">
             What our clients say{" "}
             <span className="rounded-md bg-indigo-600 px-3.5 rotate-2 font-semibold text-white shadow-sm">
@@ -21,7 +23,7 @@ export const FourthSec = () => {
       </div>
       <div className="mb-[60px]">
         <Swiper
-          slidesPerView={1}
+          slidesPerView={1.3}
           spaceBetween={10}
           onSlideChange={(swiper) => setActiveIndex(swiper.activeIndex)}
           breakpoints={{
@@ -38,6 +40,8 @@ export const FourthSec = () => {
               spaceBetween: 10,
             },
           }}
+          navigation={true}
+          modules={[Navigation]}
           className="mySwiper"
         >
           {[...Array(8)].map((_, index) => (

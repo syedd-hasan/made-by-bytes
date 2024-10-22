@@ -11,7 +11,9 @@ export const Home = () => {
   return (
     <>
       <Main scrollToSection={secondSecRef} />
-      <SecondSec ref={secondSecRef} />
+      <div ref={secondSecRef}>
+        <SecondSec />
+      </div>
       <ThirdSec />
       <FourthSec />
       <FifthSec />

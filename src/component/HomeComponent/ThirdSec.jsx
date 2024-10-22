@@ -2,12 +2,20 @@ import React from "react";
 import portImg1 from "../assets/images/port-img1.png";
 import portImg2 from "../assets/images/port-img2.png";
 import portImg3 from "../assets/images/port-img3.png";
+import logo from "../assets/logo/logo.png";
 
 export const ThirdSec = () => {
   return (
     <>
-      <div className="container mx-auto">
-        <div className="grid grid-cols-3">
+      <div
+        className="container mx-auto mt-[60px]"
+        // style={{
+        //   background: `url(${logo}) no-repeat center`,
+        //   backgroundSize: "500px",
+        //   // opacity: 0.7,
+        // }}
+      >
+        <div className="grid md:grid-cols-3 mb-4">
           <div className=" col-span-2 items-center">
             <h2 className="text-2xl font-bold  text-gray-900 xl:text-[65px] md:text-[50px] uppercase leading-normal">
               Crafting solutions, one Byte at a time, to power your{" "}
@@ -28,8 +36,8 @@ export const ThirdSec = () => {
           </div>
         </div>
       </div>
-      <div className="max-w-full overflow-hidden">
-        <div className="grid md:grid-cols-3 grid-cols-2 gap-4 items-end justify-center">
+      <div className="max-w-full overflow-hidden mb-[60px]">
+        <div className="grid md:grid-cols-3 grid-cols-3 gap-4 items-end justify-center">
           <div className="w-full">
             <img
               src={portImg1}
