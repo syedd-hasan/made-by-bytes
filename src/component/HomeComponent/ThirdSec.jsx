@@ -6,7 +6,7 @@ import logo from "../assets/logo/logo.png";
 
 export const ThirdSec = () => {
   return (
-    <div className="relative overflow-visible">
+    <div className="relative overflow-visible px-4">
       <div
         className="container mx-auto mt-[60px] "
         // style={{

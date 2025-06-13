@@ -22,7 +22,7 @@ export default function Header() {
     <header className="bg-white">
       <nav
         aria-label="Global"
-        className="mx-auto flex container items-center justify-between py-6 lg:px-4"
+        className="mx-auto flex container items-center justify-between py-6 px-4 md:px-4"
       >
         <div className="flex lg:flex-1">
           <a className="-m-1.5 p-1.5 flex items-end gap-2 corsur">
