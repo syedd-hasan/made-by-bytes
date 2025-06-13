@@ -9,6 +9,14 @@ import globalBank from "../assets/images/global-bank.png";
 import lightBox from "../assets/images/light-box.png";
 import nietzsche from "../assets/images/nietzsche.png";
 import spherule from "../assets/images/spherule.png";
+import Byd from "../assets/images/Byd.svg";
+import Carrefour from "../assets/images/Carrefour.svg";
+import Mondelez from "../assets/images/Mondelez.svg";
+// import NewEagle from "../assets/images/New-Eagle.svg";
+// import Pepsi from "../assets/images/Pepsico.svg";
+import Xiaomi from "../assets/images/Xiaomi.svg";
+import Suzuki from "../assets/images/Suzuki.svg";
+import Zong from "../assets/images/Zong.svg";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
@@ -25,7 +33,7 @@ export const Main = ({ scrollToSection }) => {
       <div className="container mx-auto relative isolate pt-14 ">
         <div
           aria-hidden="true"
-          className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
+          className="absolute inset-x-0 -top-5 -z-10 transform-gpu overflow-hidden blur-3xl "
         >
           <div
             style={{
@@ -43,9 +51,9 @@ export const Main = ({ scrollToSection }) => {
           //   // opacity: 0.7,
           // }}
         >
-          <div className="absolute hidden md:block right-[5%] top-[25%] md:w-[200px] rotate-animation">
+          {/* <div className="absolute hidden md:block right-[5%] top-[25%] md:w-[200px] rotate-animation">
             <img src={bgImg} alt="img" />
-          </div>
+          </div> */}
 
           {/* <div className="text-center flex flex-col items-center">
             <h1 className="text-4xl font-bold  text-gray-900 xl:text-[90px] md:text-[70px] uppercase leading-normal">
@@ -108,8 +116,10 @@ export const Main = ({ scrollToSection }) => {
           <div className="text-center flex flex-col items-center">
             <h1 className="text-4xl font-bold text-gray-900 xl:text-[90px] md:text-[70px] text-[50px] leading-normal uppercase">
               Crafting solutions, <br /> one{" "}
-              <span className="rounded-md bg-indigo-600 px-3.5 rotate-2 font-semibold text-white shadow-sm">
-                byte
+              <span className="inline-block rotate-[3.86deg] bg-lilt-sec px-2.5 rounded-3xl shadow-sm">
+                <span className="inline-block rotate-[-3.86deg] text-white font-semibold">
+                  byte
+                </span>
               </span>{" "}
               at a time.
             </h1>
@@ -202,65 +212,110 @@ export const Main = ({ scrollToSection }) => {
                 >
                   <SwiperSlide>
                     <img
-                      alt="boltshift"
-                      src={boltshift}
+                      alt="Byd"
+                      src={Byd}
                       width={158}
                       height={48}
-                      className="col-span-2 max-h-12 w-full object-contain lg:col-span-1 grayscale"
+                      className="col-span-2  w-full object-contain lg:col-span-1 gray-color"
                     />
                   </SwiperSlide>
                   <SwiperSlide>
                     <img
-                      alt="feather dev"
-                      src={featherDev}
+                      alt="Carrefour"
+                      src={Carrefour}
                       width={158}
                       height={48}
-                      className="col-span-2 max-h-12 w-full object-contain lg:col-span-1 grayscale"
+                      className="col-span-2  w-full object-contain lg:col-span-1 gray-color"
                     />
                   </SwiperSlide>
                   <SwiperSlide>
                     <img
-                      alt="global bank"
-                      src={globalBank}
+                      alt="Suzuki"
+                      src={Suzuki}
                       width={158}
                       height={48}
-                      className="col-span-2 max-h-12 w-full object-contain lg:col-span-1 grayscale"
+                      className="col-span-2  w-full object-contain lg:col-span-1 gray-color"
                     />
                   </SwiperSlide>
                   <SwiperSlide>
                     <img
-                      alt="light box"
-                      src={lightBox}
+                      alt="Mondelez"
+                      src={Mondelez}
                       width={158}
                       height={48}
-                      className="col-span-2 max-h-12 w-full object-contain sm:col-start-2 lg:col-span-1 "
+                      className="col-span-2  w-full object-contain sm:col-start-2 lg:col-span-1 gray-color"
                     />
                   </SwiperSlide>
                   <SwiperSlide>
                     <img
-                      alt="nietzsche"
-                      src={nietzsche}
+                      alt="Xiaomi"
+                      src={Xiaomi}
                       width={158}
                       height={48}
-                      className="col-span-2 col-start-2 max-h-12 w-full object-contain sm:col-start-auto lg:col-span-1 grayscale"
+                      className="col-span-2 col-start-2  w-full object-contain sm:col-start-auto lg:col-span-1 gray-color  md:mt-2"
                     />
                   </SwiperSlide>
                   <SwiperSlide>
                     <img
-                      alt="spherule"
-                      src={spherule}
+                      alt="Zong"
+                      src={Zong}
                       width={158}
                       height={48}
-                      className="col-span-2 col-start-2 max-h-12 w-full object-contain sm:col-start-auto lg:col-span-1 grayscale"
+                      className="col-span-2 col-start-2  w-full object-contain sm:col-start-auto lg:col-span-1 gray-color"
                     />
                   </SwiperSlide>
                   <SwiperSlide>
                     <img
-                      alt="global bank"
-                      src={globalBank}
+                      alt="Byd"
+                      src={Byd}
                       width={158}
                       height={48}
-                      className="col-span-2 max-h-12 w-full object-contain lg:col-span-1 grayscale"
+                      className="col-span-2  w-full object-contain lg:col-span-1 gray-color"
+                    />
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <img
+                      alt="Carrefour"
+                      src={Carrefour}
+                      width={158}
+                      height={48}
+                      className="col-span-2  w-full object-contain lg:col-span-1 gray-color"
+                    />
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <img
+                      alt="Suzuki"
+                      src={Suzuki}
+                      width={158}
+                      height={48}
+                      className="col-span-2  w-full object-contain lg:col-span-1 gray-color"
+                    />
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <img
+                      alt="Mondelez"
+                      src={Mondelez}
+                      width={158}
+                      height={48}
+                      className="col-span-2  w-full object-contain sm:col-start-2 lg:col-span-1 gray-color"
+                    />
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <img
+                      alt="Xiaomi"
+                      src={Xiaomi}
+                      width={158}
+                      height={48}
+                      className="col-span-2 col-start-2  w-full object-contain sm:col-start-auto lg:col-span-1 gray-color md:mt-2"
+                    />
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <img
+                      alt="Zong"
+                      src={Zong}
+                      width={158}
+                      height={48}
+                      className="col-span-2 col-start-2  w-full object-contain sm:col-start-auto lg:col-span-1 gray-color"
                     />
                   </SwiperSlide>
                 </Swiper>

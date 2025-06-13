@@ -15,9 +15,11 @@ export const FourthSec = () => {
         <div className="grid md:grid-cols-2">
           <h2 className="text-2xl font-bold  text-gray-900 xl:text-[65px] md:text-[50px] uppercase leading-normal">
             What our clients say{" "}
-            <span className="rounded-md bg-indigo-600 px-3.5 rotate-2 font-semibold text-white shadow-sm">
-              about us
-            </span>
+            <span className="inline-block rotate-[1.86deg] bg-lilt-sec px-2.5 rounded-3xl shadow-sm">
+              <span className="inline-block rotate-[-1.86deg] text-white font-semibold ">
+                about us
+              </span>
+            </span>{" "}
           </h2>
         </div>
       </div>

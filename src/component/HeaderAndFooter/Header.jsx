@@ -22,7 +22,7 @@ export default function Header() {
     <header className="bg-white">
       <nav
         aria-label="Global"
-        className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8"
+        className="mx-auto flex container items-center justify-between py-6 lg:px-4"
       >
         <div className="flex lg:flex-1">
           <a className="-m-1.5 p-1.5 flex items-end gap-2 corsur">
@@ -41,25 +41,50 @@ export default function Header() {
             <FaBars className="h-6 w-6" />
           </button>
         </div>
-        <div className="hidden lg:flex lg:flex-1 lg:justify-end lg:gap-x-14">
-          <div className="hidden lg:flex lg:gap-x-10">
+        <div className="hidden lg:flex lg:flex-1 lg:justify-end lg:gap-x-14  lg:items-center">
+          <div className="hidden lg:flex lg:gap-x-6">
+            <a className="text-md font-semibold leading-6 text-gray-900 cursor-pointer group ">
+              <span className="inline-block rotate-[3.86deg] bg-lilt-sec-header px-2.5 rounded-md shadow-sm h-full  hover:text-white">
+                <span className="inline-block rotate-[-3.86deg] font-semibold my-auto px-2 py-1">
+                  Home
+                </span>
+              </span>
+            </a>
+
             <a className="text-md font-semibold leading-6 text-gray-900 cursor-pointer">
-              Home
+              <span className="inline-block rotate-[3.86deg] bg-lilt-sec-header px-2.5 rounded-md shadow-sm h-full  hover:text-white">
+                <span className="inline-block rotate-[-3.86deg] font-semibold my-auto px-2 py-1">
+                  About
+                </span>
+              </span>
             </a>
             <a className="text-md font-semibold leading-6 text-gray-900 cursor-pointer">
-              About
+              <span className="inline-block rotate-[3.86deg] bg-lilt-sec-header px-2.5 rounded-md shadow-sm h-full  hover:text-white">
+                <span className="inline-block rotate-[-3.86deg] font-semibold my-auto px-2 py-1">
+                  Service
+                </span>
+              </span>
             </a>
             <a className="text-md font-semibold leading-6 text-gray-900 cursor-pointer">
-              Service
+              <span className="inline-block rotate-[3.86deg] bg-lilt-sec-header px-2.5 rounded-md shadow-sm h-full  hover:text-white">
+                <span className="inline-block rotate-[-3.86deg] font-semibold my-auto px-2 py-1">
+                  Blog
+                </span>
+              </span>
             </a>
             <a className="text-md font-semibold leading-6 text-gray-900 cursor-pointer">
-              Blog
+              <span className="inline-block rotate-[3.86deg] bg-lilt-sec-header px-2.5 rounded-md shadow-sm h-full  hover:text-white">
+                <span className="inline-block rotate-[-3.86deg] font-semibold my-auto px-2 py-1">
+                  Project
+                </span>
+              </span>
             </a>
             <a className="text-md font-semibold leading-6 text-gray-900 cursor-pointer">
-              Project
-            </a>
-            <a className="text-md font-semibold leading-6 text-gray-900 cursor-pointer">
-              Contact
+              <span className="inline-block rotate-[3.86deg] bg-lilt-sec-header px-2.5 rounded-md shadow-sm h-full  hover:text-white">
+                <span className="inline-block rotate-[-3.86deg] font-semibold my-auto px-2 py-1">
+                  Contact
+                </span>
+              </span>
             </a>
           </div>
           <a className="text-md font-semibold leading-6 text-white flex w-max items-center gap-2 py-1 px-3 bg-[#1d37ec] rounded-full ">

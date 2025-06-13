@@ -119,8 +119,10 @@ export const FifthSec = () => {
           <div className="col-span-2">
             <h2 className="text-2xl font-bold text-white xl:text-[65px] md:text-[50px] uppercase leading-normal">
               We deliver{" "}
-              <span className="rounded-md bg-indigo-600 px-3.5 rotate-2 font-semibold text-white shadow-sm">
-                tailored
+              <span className="inline-block rotate-[2.86deg] bg-lilt-sec px-2.5 rounded-3xl shadow-sm">
+                <span className="inline-block rotate-[-2.86deg] text-white font-semibold ">
+                  tailored
+                </span>
               </span>{" "}
               digital solutions
             </h2>
@@ -131,7 +133,7 @@ export const FifthSec = () => {
           </div>
         </div>
 
-        <div className="mt-[40px]">
+        <div className="">
           {[
             {
               title: "Custom Web Development",
@@ -156,21 +158,16 @@ export const FifthSec = () => {
           ].map(({ title, description }, index) => (
             <div
               key={index}
-              className="flex justify-between items-center py-[30px] border-b border-[#808080] faq-sec-main-div"
+              className="faq-sec-main-div relative flex justify-between items-center py-[30px] border-b border-white hover:text-white transition-colors duration-300"
             >
-              <div className="w-full md:w-[60%]">
+              <div className="relative z-10 w-full md:w-[60%] ml-6">
                 <h5 className="text-[30px] md:text-[40px] font-bold text-white uppercase">
                   {title}
                 </h5>
-                <p className="text-[#808080]">{description}</p>
+                <p className="text-white">{description}</p>
               </div>
-              <div className="flex gap-6 items-center">
-                <img
-                  src={webImg}
-                  className="object-contain h-[50%] hidden md:block transition-opacity duration-300"
-                  alt={title}
-                />
-                <IoIosArrowRoundForward className="text-[#808080] text-[70px] md:text-[100px] rotate-[-34deg]" />
+              <div className="relative z-10 flex gap-6 items-center">
+                <IoIosArrowRoundForward className="text-white text-[70px] md:text-[100px] rotate-[-34deg]" />
               </div>
             </div>
           ))}

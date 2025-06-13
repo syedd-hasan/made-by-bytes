@@ -8,8 +8,8 @@ export const SecondSec = () => {
   return (
     <div className="bg-black">
       <div className="container mx-auto text-white py-8 md:py-[80px] px-4">
-        <div className="grid md:grid-cols-2 grid-cols-1 gap-4 w-full border-b border-white pb-4">
-          <h2 className="xl:text-[80px] md:text-[65px] text-[50px] md:text-end uppercase font-bold">
+        <div className="grid md:grid-cols-2 grid-cols-1 gap-4 w-full border-b border-white pb-4 md:items-center">
+          <h2 className="xl:text-[80px] md:text-[65px] text-[50px] md:text-start uppercase font-bold">
             Our Portfolio
           </h2>
           <p className="md:text-left text-center">

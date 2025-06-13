@@ -6,22 +6,27 @@ import logo from "../assets/logo/logo.png";
 
 export const ThirdSec = () => {
   return (
-    <>
+    <div className="relative overflow-visible">
       <div
-        className="container mx-auto mt-[60px]"
+        className="container mx-auto mt-[60px] "
         // style={{
         //   background: `url(${logo}) no-repeat center`,
         //   backgroundSize: "500px",
         //   // opacity: 0.7,
         // }}
       >
-        <div className="grid md:grid-cols-3 mb-4">
+        <div className="grid md:grid-cols-3 mb-4 gap-4">
           <div className=" col-span-2 items-center">
             <h2 className="text-2xl font-bold  text-gray-900 xl:text-[65px] md:text-[50px] uppercase leading-normal">
               Crafting solutions, one Byte at a time, to power your{" "}
-              <span className="rounded-md bg-indigo-600 px-3.5 rotate-2 font-semibold text-white shadow-sm">
+              {/* <span className="rounded-md bg-indigo-600 px-3.5 rotate-2 font-semibold text-white shadow-sm">
                 digital future
-              </span>
+              </span> */}
+              <span className="inline-block rotate-[1.56deg] bg-lilt-sec px-2.5 rounded-3xl shadow-sm">
+                <span className="inline-block rotate-[-1.56deg] text-white font-semibold ">
+                  digital future
+                </span>
+              </span>{" "}
             </h2>
             <p className="mt-4 ">
               We are a premier web and mobile development agency, powered by a
@@ -34,10 +39,11 @@ export const ThirdSec = () => {
               realities.
             </p>
           </div>
-        </div>
+          <div className="hidden md:block"></div>
+          {/* </div>
       </div>
-      <div className="max-w-full overflow-hidden mb-[60px]">
-        <div className="grid md:grid-cols-3 grid-cols-3 gap-4 items-end justify-center">
+      <div className="max-w-full overflow-hidden mb-[60px] ">
+        <div className="grid md:grid-cols-3 grid-cols-3 gap-4 items-end justify-center"> */}
           <div className="w-full">
             <img
               src={portImg1}
@@ -52,15 +58,24 @@ export const ThirdSec = () => {
               alt="Description 2"
             />
           </div>
-          <div className="w-full h-full">
+          {/* <div className="w-full h-full relative">
             <img
               src={portImg3}
               className="object-cover w-full h-auto md:h-full"
               alt="Description 3"
             />
+          </div> */}
+          {/* <section className="overflow-visible"> */}
+          <div className="md:relative overflow-visible">
+            <img
+              src={portImg3}
+              alt="Description 3"
+              className="md:absolute bottom-0 left-1/2 md:transform md:-translate-x-1/2 object-cover md:z-20"
+            />
           </div>
+          {/* </section> */}
         </div>
       </div>
-    </>
+    </div>
   );
 };
