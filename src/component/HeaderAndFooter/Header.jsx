@@ -43,13 +43,13 @@ export default function Header() {
         </div>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end lg:gap-x-14  lg:items-center">
           <div className="hidden lg:flex lg:gap-x-6">
-            <a className="text-md font-semibold leading-6 text-gray-900 cursor-pointer group ">
+            {/* <a className="text-md font-semibold leading-6 text-gray-900 cursor-pointer group ">
               <span className="inline-block rotate-[3.86deg] bg-lilt-sec-header px-2.5 rounded-md shadow-sm h-full  hover:text-white">
                 <span className="inline-block rotate-[-3.86deg] font-semibold my-auto px-2 py-1">
                   Home
                 </span>
               </span>
-            </a>
+            </a> */}
 
             <a className="text-md font-semibold leading-6 text-gray-900 cursor-pointer">
               <span className="inline-block rotate-[3.86deg] bg-lilt-sec-header px-2.5 rounded-md shadow-sm h-full  hover:text-white">

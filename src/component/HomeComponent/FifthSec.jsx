@@ -112,6 +112,13 @@ import webImg from "../assets/images/web-faq-img.png";
 import { IoIosArrowRoundForward } from "react-icons/io";
 
 export const FifthSec = () => {
+  const handleMouseMove = (e) => {
+    const rect = e.currentTarget.getBoundingClientRect();
+    const x = e.clientX - rect.left;
+    const y = e.clientY - rect.top;
+    e.currentTarget.style.setProperty("--mouse-x", `${x}px`);
+    e.currentTarget.style.setProperty("--mouse-y", `${y}px`);
+  };
   return (
     <div className="bg-black">
       <div className="container mx-auto md:py-[60px] px-4">
@@ -159,6 +166,13 @@ export const FifthSec = () => {
             <div
               key={index}
               className="faq-sec-main-div relative flex justify-between items-center py-[30px] border-b border-white hover:text-white transition-colors duration-300"
+              onMouseMove={(e) => {
+                const rect = e.currentTarget.getBoundingClientRect();
+                const x = e.clientX - rect.left;
+                const y = e.clientY - rect.top;
+                e.currentTarget.style.setProperty("--mouse-x", `${x}px`);
+                e.currentTarget.style.setProperty("--mouse-y", `${y}px`);
+              }}
             >
               <div className="relative z-10 w-full md:w-[60%] ml-6">
                 <h5 className="text-[30px] md:text-[40px] font-bold text-white uppercase">

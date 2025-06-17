@@ -22,13 +22,13 @@ export const ThirdSec = () => {
               {/* <span className="rounded-md bg-indigo-600 px-3.5 rotate-2 font-semibold text-white shadow-sm">
                 digital future
               </span> */}
-              <span className="inline-block rotate-[1.56deg] bg-lilt-sec px-2.5 rounded-3xl shadow-sm">
-                <span className="inline-block rotate-[-1.56deg] text-white font-semibold ">
+              <span className="inline-block rotate-[1.86deg] bg-lilt-sec px-2.5 rounded-3xl shadow-sm font-bold ">
+                <span className="inline-block rotate-[-1.86deg] text-white font-semibold font-bold ">
                   digital future
                 </span>
               </span>{" "}
             </h2>
-            <p className="mt-4 ">
+            <p className="mt-4 text-lg">
               We are a premier web and mobile development agency, powered by a
               team of expert developers, creative designers, and technology
               innovators. We are committed to delivering exceptional digital

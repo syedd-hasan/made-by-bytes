@@ -123,7 +123,7 @@ export const Main = ({ scrollToSection }) => {
               </span>{" "}
               at a time.
             </h1>
-            <p className="mt-4 w-full md:w-[60%] text-center px-4">
+            <p className="mt-4 w-full md:w-[60%] text-center px-4  text-gray-600 md:text-2xl">
               Leverage our expertise and the skills of our top-tier developers
               to drive your business forward with custom web development, mobile
               applications, and resource augmentation services. Let us help you
@@ -216,7 +216,7 @@ export const Main = ({ scrollToSection }) => {
                       src={Byd}
                       width={158}
                       height={48}
-                      className="col-span-2  w-full object-contain lg:col-span-1 gray-color"
+                      className=" w-full object-contain lg:col-span-1 gray-color"
                     />
                   </SwiperSlide>
                   <SwiperSlide>
@@ -225,7 +225,7 @@ export const Main = ({ scrollToSection }) => {
                       src={Carrefour}
                       width={158}
                       height={48}
-                      className="col-span-2  w-full object-contain lg:col-span-1 gray-color"
+                      className=" w-full object-contain lg:col-span-1 gray-color"
                     />
                   </SwiperSlide>
                   <SwiperSlide>
@@ -234,7 +234,7 @@ export const Main = ({ scrollToSection }) => {
                       src={Suzuki}
                       width={158}
                       height={48}
-                      className="col-span-2  w-full object-contain lg:col-span-1 gray-color"
+                      className=" w-full object-contain lg:col-span-1 gray-color"
                     />
                   </SwiperSlide>
                   <SwiperSlide>
@@ -243,7 +243,7 @@ export const Main = ({ scrollToSection }) => {
                       src={Mondelez}
                       width={158}
                       height={48}
-                      className="col-span-2  w-full object-contain sm:col-start-2 lg:col-span-1 gray-color"
+                      className=" w-full object-contain sm:col-start-2 lg:col-span-1 gray-color"
                     />
                   </SwiperSlide>
                   <SwiperSlide>
@@ -252,7 +252,7 @@ export const Main = ({ scrollToSection }) => {
                       src={Xiaomi}
                       width={158}
                       height={48}
-                      className="col-span-2 col-start-2  w-full object-contain sm:col-start-auto lg:col-span-1 gray-color  md:mt-2"
+                      className="col-start-2  w-full object-contain sm:col-start-auto lg:col-span-1 gray-color  md:mt-2"
                     />
                   </SwiperSlide>
                   <SwiperSlide>
@@ -261,7 +261,7 @@ export const Main = ({ scrollToSection }) => {
                       src={Zong}
                       width={158}
                       height={48}
-                      className="col-span-2 col-start-2  w-full object-contain sm:col-start-auto lg:col-span-1 gray-color"
+                      className="col-start-2  w-full object-contain sm:col-start-auto lg:col-span-1 gray-color"
                     />
                   </SwiperSlide>
                   <SwiperSlide>
@@ -270,7 +270,7 @@ export const Main = ({ scrollToSection }) => {
                       src={Byd}
                       width={158}
                       height={48}
-                      className="col-span-2  w-full object-contain lg:col-span-1 gray-color"
+                      className=" w-full object-contain lg:col-span-1 gray-color"
                     />
                   </SwiperSlide>
                   <SwiperSlide>
@@ -279,7 +279,7 @@ export const Main = ({ scrollToSection }) => {
                       src={Carrefour}
                       width={158}
                       height={48}
-                      className="col-span-2  w-full object-contain lg:col-span-1 gray-color"
+                      className=" w-full object-contain lg:col-span-1 gray-color"
                     />
                   </SwiperSlide>
                   <SwiperSlide>
@@ -288,7 +288,7 @@ export const Main = ({ scrollToSection }) => {
                       src={Suzuki}
                       width={158}
                       height={48}
-                      className="col-span-2  w-full object-contain lg:col-span-1 gray-color"
+                      className=" w-full object-contain lg:col-span-1 gray-color"
                     />
                   </SwiperSlide>
                   <SwiperSlide>
@@ -297,7 +297,7 @@ export const Main = ({ scrollToSection }) => {
                       src={Mondelez}
                       width={158}
                       height={48}
-                      className="col-span-2  w-full object-contain sm:col-start-2 lg:col-span-1 gray-color"
+                      className=" w-full object-contain sm:col-start-2 lg:col-span-1 gray-color"
                     />
                   </SwiperSlide>
                   <SwiperSlide>
@@ -306,7 +306,7 @@ export const Main = ({ scrollToSection }) => {
                       src={Xiaomi}
                       width={158}
                       height={48}
-                      className="col-span-2 col-start-2  w-full object-contain sm:col-start-auto lg:col-span-1 gray-color md:mt-2"
+                      className="col-start-2  w-full object-contain sm:col-start-auto lg:col-span-1 gray-color md:mt-2"
                     />
                   </SwiperSlide>
                   <SwiperSlide>
@@ -315,7 +315,7 @@ export const Main = ({ scrollToSection }) => {
                       src={Zong}
                       width={158}
                       height={48}
-                      className="col-span-2 col-start-2  w-full object-contain sm:col-start-auto lg:col-span-1 gray-color"
+                      className="col-start-2  w-full object-contain sm:col-start-auto lg:col-span-1 gray-color"
                     />
                   </SwiperSlide>
                 </Swiper>
