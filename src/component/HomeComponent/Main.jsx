@@ -35,8 +35,8 @@ export const Main = ({ scrollToSection }) => {
         className="container mx-auto relative isolate pt-14 "
         style={{
           backgroundImage: `url(${BgLogo})`,
-          backgroundRepeat: "repeat-x",
-          backgroundPosition: "left top",
+          backgroundRepeat: "no-repeat",
+          backgroundPosition: "top center",
           backgroundSize: "auto 80%",
         }}
       >
