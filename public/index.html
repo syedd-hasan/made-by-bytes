@@ -25,6 +25,57 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <title>Made By Bytes</title>
+    <style>
+      body {
+        /* cursor: url("/cursor/Text-Cursor.svg"), text; */
+        cursor: url("/cursor/Cursor-Icon.svg"), auto;
+      }
+      button,
+      button * {
+        cursor: url("/cursor/Hand-cursor.svg"), pointer;
+      }
+      a:hover,
+      button:hover,
+      option,
+      option:focus,
+      option:hover,
+      select:hover,
+      .cursor-pointer:hover,
+      .cursor-pointer:focus,
+      .cursor-pointer:active {
+        cursor: url("/cursor/Hand-cursor.svg"), pointer;
+      }
+
+      /* Jab user text pe hover kare */
+      p,
+      /* span, */
+      /* h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6,input, textarea {
+        cursor: url("/cursor/Text-Cursor.svg"), text;
+      } */
+      .no-text-icon {
+        /* cursor: url("/cursor/Text-Cursor.svg"), text; */
+        cursor: url("/cursor/Cursor-Icon.svg"), pointer;
+      }
+      .cursor-grab {
+        cursor: url("/cursors/handopen.svg"), grab;
+      }
+
+      .cursor-grabbing {
+        cursor: url("/cursors/handgrabbing.svg"), grabbing;
+      }
+
+      /* Jab user actually text select kare (mouse drag) */
+      /* *::selection {
+        background: #ddd;
+        color: #000;
+        cursor: url("/cursor/Text-Cursor.svg"), text;
+      } */
+    </style>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>

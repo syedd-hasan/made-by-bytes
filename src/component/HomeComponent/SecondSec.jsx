@@ -12,7 +12,7 @@ export const SecondSec = () => {
           <h2 className="xl:text-[80px] md:text-[65px] text-[50px] md:text-start uppercase font-bold">
             Our Portfolio
           </h2>
-          <p className="md:text-left text-center text-lg">
+          <p className="md:text-left text-center text-[#878787] text-lg">
             From emerging startups to Fortune 500 companies, we’ve provided
             digital solutions that empower businesses to excel. As a
             top-performing development provider, Made by Bytes delivers

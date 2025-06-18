@@ -11,7 +11,7 @@ export const Footer = () => {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
           <div className="mt-3">
-            <p className="text-white">
+            <p className="text-[#b5b5b5]">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore
               fugiat officia voluptates provident eius, tenetur expedita eum, a,
               corporis architecto consequatur blanditiis! Eius reprehenderit
@@ -22,7 +22,7 @@ export const Footer = () => {
           <div className="flex flex-col md:items-center">
             <div>
               <h4 className="text-white text-[20px]">Quick Link</h4>
-              <ul className="text-white mt-4 space-y-1">
+              <ul className="text-[#b5b5b5] mt-4 space-y-1">
                 <li>Home</li>
                 <li>About Us</li>
                 <li>Features</li>
@@ -35,7 +35,7 @@ export const Footer = () => {
           <div className="flex flex-col md:items-center">
             <>
               <h4 className="text-white text-[20px]">Company</h4>
-              <ul className="text-white mt-4 space-y-1">
+              <ul className="text-[#b5b5b5] mt-4 space-y-1">
                 <li>About Us</li>
                 <li>Contact Us</li>
                 <li>Career Tips</li>

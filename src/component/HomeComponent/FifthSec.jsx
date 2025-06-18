@@ -126,8 +126,8 @@ export const FifthSec = () => {
           <div className="col-span-2">
             <h2 className="text-2xl font-bold text-white xl:text-[65px] md:text-[50px] uppercase leading-normal">
               We deliver{" "}
-              <span className="inline-block rotate-[2.86deg] bg-lilt-sec px-2.5 rounded-3xl shadow-sm">
-                <span className="inline-block rotate-[-2.86deg] text-white font-semibold ">
+              <span className="inline-block rotate-[-2.86deg] bg-lilt-sec px-2.5 rounded-3xl shadow-sm">
+                <span className="inline-block rotate-[2.86deg] text-white font-semibold ">
                   tailored
                 </span>
               </span>{" "}
@@ -165,7 +165,7 @@ export const FifthSec = () => {
           ].map(({ title, description }, index) => (
             <div
               key={index}
-              className="faq-sec-main-div relative flex justify-between items-center py-[30px] border-b border-white hover:text-white transition-colors duration-300"
+              className="faq-sec-main-div relative flex justify-between items-center py-[30px] border-b border-white text-[#404040] hover:text-white  hover:text-white transition-colors duration-300"
               onMouseMove={(e) => {
                 const rect = e.currentTarget.getBoundingClientRect();
                 const x = e.clientX - rect.left;
@@ -175,13 +175,13 @@ export const FifthSec = () => {
               }}
             >
               <div className="relative z-10 w-full md:w-[60%] ml-6">
-                <h5 className="text-[30px] md:text-[40px] font-bold text-white uppercase">
+                <h5 className="text-[30px] md:text-[40px] font-bold uppercase">
                   {title}
                 </h5>
-                <p className="text-white">{description}</p>
+                <p className="">{description}</p>
               </div>
               <div className="relative z-10 flex gap-6 items-center">
-                <IoIosArrowRoundForward className="text-white text-[70px] md:text-[100px] rotate-[-34deg]" />
+                <IoIosArrowRoundForward className="text-[70px] md:text-[100px] rotate-[-34deg]" />
               </div>
             </div>
           ))}

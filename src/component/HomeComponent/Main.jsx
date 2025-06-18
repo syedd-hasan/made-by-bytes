@@ -21,6 +21,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
 import { Navigation, Autoplay } from "swiper/modules";
+import BgLogo from "../assets/images/bg-logo.png";
 
 export const Main = ({ scrollToSection }) => {
   const handleScroll = () => {
@@ -30,27 +31,28 @@ export const Main = ({ scrollToSection }) => {
   };
   return (
     <>
-      <div className="container mx-auto relative isolate pt-14 ">
+      <div
+        className="container mx-auto relative isolate pt-14 "
+        style={{
+          backgroundImage: `url(${BgLogo})`,
+          backgroundRepeat: "repeat-x",
+          backgroundPosition: "left top",
+          backgroundSize: "auto 80%",
+        }}
+      >
         <div
           aria-hidden="true"
           className="absolute inset-x-0 -top-5 -z-10 transform-gpu overflow-hidden blur-3xl "
         >
-          <div
+          {/* <div
             style={{
               clipPath:
                 "polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)",
             }}
             className="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]"
-          />
+          /> */}
         </div>
-        <div
-          className=" mx-auto relative "
-          // style={{
-          //   background: `url(${bgImg}) no-repeat right`,
-          //   backgroundSize: "250px",
-          //   // opacity: 0.7,
-          // }}
-        >
+        <div className=" mx-auto relative ">
           {/* <div className="absolute hidden md:block right-[5%] top-[25%] md:w-[200px] rotate-animation">
             <img src={bgImg} alt="img" />
           </div> */}
@@ -177,7 +179,7 @@ export const Main = ({ scrollToSection }) => {
 
           <div className=" py-24 sm:py-20">
             <div className="mx-auto max-w-7xl px-6 lg:px-8">
-              <h2 className="text-center text-2xl font-bold leading-8 text-gray-900 capitalize">
+              <h2 className="text-center size-fit mx-auto text-2xl font-bold leading-8 text-gray-900 capitalize">
                 The who's who of happy clients
               </h2>
               <div className="mx-auto mt-10 ">
