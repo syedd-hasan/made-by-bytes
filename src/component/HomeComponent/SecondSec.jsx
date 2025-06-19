@@ -68,7 +68,7 @@ export const SecondSec = () => {
               deadlines and scale your business efficiently.
             </p>
             <img
-              src={img3}
+              src={img2}
               className="w-full h-[200px] object-cover"
               alt="IT Staff Augmentation"
             />
