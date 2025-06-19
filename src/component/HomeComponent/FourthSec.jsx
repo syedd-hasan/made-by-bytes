@@ -11,11 +11,11 @@ export const FourthSec = () => {
   const [activeIndex, setActiveIndex] = useState(0);
   return (
     <>
-      <div className="container mx-auto md:my-[60px] mb-[30px]">
+      <div className="container mx-auto md:my-[60px] mb-[30px] px-4">
         <div className="grid md:grid-cols-2">
           <h2 className="text-2xl font-bold  text-gray-900 xl:text-[65px] md:text-[50px] uppercase leading-normal">
             What our clients say{" "}
-            <span className="inline-block rotate-[1.86deg] bg-lilt-sec px-2.5 rounded-3xl shadow-sm">
+            <span className="inline-block rotate-[1.86deg] bg-lilt-sec px-2.5 rounded-xl  md:rounded-3xl  shadow-sm">
               <span className="inline-block rotate-[-1.86deg] text-white font-semibold ">
                 about us
               </span>

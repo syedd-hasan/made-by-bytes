@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "../assets/logo/made-by-bytes-logo.png";
+import logoText from "../assets/logo/made_by_bytes.png";
 import { IoIosArrowForward } from "react-icons/io";
 
 export const Footer = () => {
@@ -7,7 +8,12 @@ export const Footer = () => {
     <div className="bg-black py-[60px]">
       <div className="container mx-auto px-4">
         <div className="mb-3">
-          <img src={logo} alt="made by bytes logo" />
+          {/* <img src={logo} alt="made by bytes logo" /> */}
+          {/* <a className="-m-1.5 p-1.5 flex items-end gap-2 corsur"> */}
+          <img alt="Made By Bytes Logo" src={logo} className="w-auto" />
+          {/* <img alt="Made By Bytes" src={logoText} className=" w-auto" /> */}
+          {/* <span className="sr-only">Made By Bytes</span> */}
+          {/* </a> */}
         </div>
         <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
           <div className="mt-3">

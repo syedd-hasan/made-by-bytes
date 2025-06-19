@@ -20,7 +20,7 @@ export const ThirdSec = () => {
           <div className=" col-span-2 items-center">
             <h2 className="text-2xl font-bold  text-gray-900 xl:text-[65px] md:text-[50px] uppercase leading-normal">
               Crafting solutions, one Byte at a time, to power your{" "}
-              <span className="inline-block rotate-[-1.86deg] bg-lilt-sec px-2.5 rounded-3xl shadow-sm font-bold ">
+              <span className="inline-block rotate-[-1.86deg] bg-lilt-sec px-2.5 rounded-xl md:rounded-3xl shadow-sm font-bold ">
                 <span className="inline-block rotate-[1.86deg] text-white font-semibold font-bold ">
                   digital future
                 </span>

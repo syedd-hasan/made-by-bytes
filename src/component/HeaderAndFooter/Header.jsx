@@ -25,7 +25,7 @@ export default function Header() {
         className="mx-auto flex container items-center justify-between py-6 px-4 md:px-4"
       >
         <div className="flex lg:flex-1">
-          <a className="-m-1.5 p-1.5 flex items-end gap-2 corsur">
+          <a className="-m-1.5 p-1.5 flex items-center gap-2 corsur">
             <span className="sr-only">Made By Bytes</span>
             <img alt="Made By Bytes Logo" src={logo} className="h-8 w-auto" />
             <img alt="Made By Bytes" src={logoText} className="h-6 w-auto" />
@@ -98,8 +98,8 @@ export default function Header() {
 
       {mobileMenuOpen && (
         <div className="fixed inset-0 z-10 bg-white">
-          <div className="flex items-center justify-between p-6">
-            <a className="-m-1.5 p-1.5 flex gap-2">
+          <div className="flex items-center justify-between px-4 py-6">
+            <a className="-m-1.5 p-1.5 flex items-center gap-2 corsur">
               <span className="sr-only">Made By Bytes</span>
               <img alt="Made By Bytes Logo" src={logo} className="h-8 w-auto" />
               <img alt="Made By Bytes" src={logoText} className="h-6 w-auto" />
@@ -113,7 +113,7 @@ export default function Header() {
               <FaTimes className="h-6 w-6" />
             </button>
           </div>
-          <div className="py-6">
+          <div className="py-6 px-4">
             <div className="space-y-2">
               <a className="block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">
                 Home
