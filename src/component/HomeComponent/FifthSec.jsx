@@ -143,24 +143,34 @@ export const FifthSec = () => {
         <div className="">
           {[
             {
-              title: "Custom Web Development",
+              title: "Custom Mobile App Development",
               description:
-                "We build secure, scalable, and user-friendly websites that enhance engagement and drive results. Our solutions are designed to grow with your business and deliver long-term value.",
+                "We craft high-performance mobile apps for iOS, Android, and cross-platform needs using React Native, Flutter, and other modern tools designed to be fast, reliable, and easy to use, helping your business grow and retain users.",
             },
             {
-              title: "Mobile App Development",
+              title: "Custom CMS / Web App Development",
               description:
-                "We craft intuitive and high-performing mobile apps that deliver seamless user experiences, ensuring customer satisfaction and increased engagement across all platforms.",
-            },
-            {
-              title: "Custom WordPress Development",
-              description:
-                "From concept to launch, we develop fast, reliable, and optimized WordPress websites that help your business stand out and achieve its digital goals.",
+                "Tailored CMS and web app solutions built with technologies like Next.js, Remix, and headless CMS platforms (Strapi, Sanity, Contentful) giving you scalable, efficient, and easy to manage digital tools.",
             },
             {
               title: "IT Staff Augmentation",
               description:
-                "Expand your team with our skilled IT professionals. We provide the talent and expertise you need to meet deadlines and scale your business efficiently.",
+                "Need tech talent fast? Our experienced developers, designers, and QA engineers can integrate with your team remotely to meet deadlines, fill skill gaps, and boost productivity.",
+            },
+            {
+              title: "Custom Web Development",
+              description:
+                "We build secure and scalable websites with engaging user experiences using tools like Next.js, Astro, and Tailwind optimized for performance, growth, and long-term success.",
+            },
+            {
+              title: "Mobile App Development",
+              description:
+                "From design to deployment, we develop smooth mobile apps using React Native, Flutter, and powerful backend stacks like Firebase and Supabase ensuring a seamless experience across platforms.",
+            },
+            {
+              title: "Custom WordPress Development",
+              description:
+                "We deliver fully customized, fast, and easy-to-manage WordPress websites perfect for businesses that want flexibility and control, without any tech hassle.",
             },
           ].map(({ title, description }, index) => (
             <div

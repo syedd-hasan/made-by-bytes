@@ -22,32 +22,32 @@ export const SixSec = () => {
             {
               title: "Expert Team",
               description:
-                "Our seasoned team of IT professionals brings a wealth of expertise to the table, with diverse skills and a passion for innovation.",
+                "Our team is made up of skilled developers, designers, and engineers who bring hands on experience and fresh ideas to every project. We’re passionate about building smart and reliable digital products.",
             },
             {
               title: "Proven Track Record",
               description:
-                "Our seasoned team of IT professionals brings a wealth of expertise to the table, with diverse skills and a passion for innovation.",
+                "We’ve successfully delivered digital solutions for startups, SMEs, and Fortune 500 companies with results that speak for themselves. Our work drives real value for our clients.",
             },
             {
               title: "Tailored Solutions",
               description:
-                "Our seasoned team of IT professionals brings a wealth of expertise to the table, with diverse skills and a passion for innovation.",
+                "No cookie cutter templates here. Every solution we build is customized to match your unique goals, audience, and business needs ensuring better results and long-term success.",
             },
             {
               title: "Continuous Support",
               description:
-                "Our seasoned team of IT professionals brings a wealth of expertise to the table, with diverse skills and a passion for innovation.",
+                "We don’t just deliver and disappear. Our team stays with you to provide updates, improvements, and support as your product grows and evolves.",
             },
             {
               title: "Expertise & Experience",
               description:
-                "Our seasoned team of IT professionals brings a wealth of expertise to the table, with diverse skills and a passion for innovation.",
+                "With years of industry experience and a deep understanding of the latest technologies, we know what it takes to deliver solutions that work today and in the future.",
             },
             {
               title: "Comprehensive Services",
               description:
-                "Our seasoned team of IT professionals brings a wealth of expertise to the table, with diverse skills and a passion for innovation.",
+                "From web and mobile development to team augmentation, we offer a complete range of digital services under one roof so you don’t have to juggle multiple vendors.",
             },
           ].map(({ title, description }) => (
             <div className="relative pl-16 " key={title}>

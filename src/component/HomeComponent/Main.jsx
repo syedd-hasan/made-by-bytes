@@ -116,8 +116,8 @@ export const Main = ({ scrollToSection }) => {
           </div> */}
 
           <div className="text-center flex flex-col items-center">
-            <h1 className="text-4xl font-bold text-gray-900 xl:text-[90px] md:text-[70px] text-[50px] leading-normal uppercase">
-              Crafting solutions, <br /> one{" "}
+            <h1 className="text-4xl font-bold text-gray-900 2xl:text-[85px] md:text-[70px] text-[50px] leading-normal uppercase">
+              Crafting Smart Digital Solutions <br /> one{" "}
               <span className="inline-block rotate-[3.86deg] bg-lilt-sec px-2.5 rounded-3xl shadow-sm">
                 <span className="inline-block rotate-[-3.86deg] text-white font-semibold">
                   byte
@@ -126,10 +126,10 @@ export const Main = ({ scrollToSection }) => {
               at a time.
             </h1>
             <p className="mt-4 w-full md:w-[60%] text-center px-4  text-gray-600 md:text-2xl">
-              Leverage our expertise and the skills of our top-tier developers
-              to drive your business forward with custom web development, mobile
-              applications, and resource augmentation services. Let us help you
-              unlock the full potential of your digital transformation.
+              Let our experienced team help you grow with custom websites,
+              mobile apps, and dedicated tech resources. We combine skill and
+              strategy to support your digital transformation giving your
+              business the tools it needs to succeed online.
             </p>
           </div>
 

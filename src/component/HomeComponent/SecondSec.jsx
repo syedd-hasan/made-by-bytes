@@ -13,12 +13,10 @@ export const SecondSec = () => {
             Our Portfolio
           </h2>
           <p className="md:text-left text-center text-[#878787] text-lg">
-            From emerging startups to Fortune 500 companies, we’ve provided
-            digital solutions that empower businesses to excel. As a
-            top-performing development provider, Made by Bytes delivers
-            comprehensive services tailored to your needs. We craft solutions
-            that enhance user experiences, improve engagement, and drive
-            business growth.
+            From fast-growing startups to global brands, we’ve helped businesses
+            turn ideas into powerful digital products. At Made by Bytes, we
+            build custom solutions that improve user experience, boost
+            engagement, and support real business growth.
           </p>
         </div>
 
@@ -30,9 +28,9 @@ export const SecondSec = () => {
             </h3>
             {/* </div> */}
             <p className="flex-grow text-[#8f8e8e] my-3 text-lg">
-              Our team creates dynamic, user-focused mobile apps that offer
-              seamless experiences, driving engagement and customer
-              satisfaction.
+              We design and develop mobile apps that are fast, reliable, and
+              easy to use. Whether it’s iOS, Android, or cross-platform our apps
+              are built to keep users engaged and your business growing.
             </p>
             <img
               src={img1}
@@ -44,12 +42,13 @@ export const SecondSec = () => {
 
           <div className="second-sec-card-main-div relative bg-[#1f1e1e] text-[#4d4ffe] hover:bg-[#1d37ec] hover:text-white p-5 flex flex-col h-full transition-all duration-300 rounded-md">
             <h3 className="text-[32px] border-b border-[#aaaa] pb-1 mb-1 h-[25%] font-bold">
-              Custom CMS/Web App Development
+              Custom CMS / Web App Development
             </h3>
             <p className="flex-grow text-[#8f8e8e] my-3 text-lg">
-              We build dynamic, user-focused web applications that offer
-              seamless experiences, driving engagement and customer
-              satisfaction.
+              We create custom web applications and CMS platforms tailored to
+              your business needs. Our solutions are user-friendly, scalable,
+              and built to make managing your content or services simple and
+              efficient.
             </p>
             <img
               src={img2}
@@ -61,11 +60,14 @@ export const SecondSec = () => {
 
           <div className="second-sec-card-main-div relative bg-[#1f1e1e] text-[#4d4ffe] hover:bg-[#1d37ec] hover:text-white p-5 flex flex-col h-full transition-all duration-300 rounded-md">
             <h3 className="text-[32px] border-b border-[#aaaa] pb-1 mb-1 h-[25%] font-bold">
-              IT Staff Augmentation
+              UI/UX Design Services
             </h3>
             <p className="flex-grow text-[#8f8e8e] my-3 text-lg">
-              Expand your team with our skilled IT professionals to meet
-              deadlines and scale your business efficiently.
+              We design clean, user-focused digital experiences through user
+              research, wireframing, visual design, and UX audits. From
+              interactive prototypes to scalable design systems, our goal is to
+              create intuitive, engaging interfaces that align with your brand
+              and drive results.
             </p>
             <img
               src={img2}
