@@ -60,11 +60,11 @@ export const FourthSec = () => {
                     "Fine lines designed my house and they did an amazing
                   </p>
                   <div className="flex gap-3">
-                    <img
+                    {/* <img
                       className="h-10 w-10 rounded-full user-img"
                       src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
                       alt=""
-                    />
+                    /> */}
                     <div>
                       <h4 className="font-semibold text-[15px]">Tclarson</h4>
                       <h6 className="text-[#808080] text-[15px]">
