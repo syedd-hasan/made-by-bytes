@@ -2,13 +2,9 @@ import React, { useRef, useState } from "react";
 import { FaArrowRight } from "react-icons/fa";
 import { IoIosArrowDown } from "react-icons/io";
 import { MdNavigateNext } from "react-icons/md";
-import bgImg from "../assets/images/bg-img-2.png";
-import boltshift from "../assets/images/boltshift.png";
-import featherDev from "../assets/images/feather-dev.png";
-import globalBank from "../assets/images/global-bank.png";
-import lightBox from "../assets/images/light-box.png";
-import nietzsche from "../assets/images/nietzsche.png";
-import spherule from "../assets/images/spherule.png";
+import user1 from "../assets/images/user1.png";
+import user2 from "../assets/images/user2.png";
+import user3 from "../assets/images/user2.png";
 import Byd from "../assets/images/Byd.svg";
 import Carrefour from "../assets/images/Carrefour.svg";
 import Mondelez from "../assets/images/Mondelez.svg";
@@ -135,31 +131,31 @@ export const Main = ({ scrollToSection }) => {
 
           <div className="md:mt-[70px] mt-6 flex flex-col md:flex-row items-center justify-center gap-6 w-full md:w-[70%] px-4">
             <div className="md:w-[40%]">
-              <div className="flex gap-3 items-center">
-                <div className="flex -space-x-1 overflow-hidden">
+              {/* <div className="flex gap-3 items-center">
+                <div className="flex -space-x-2 overflow-hidden">
                   <img
                     alt=""
-                    src="https://images.unsplash.com/photo-1491528323818-fdd1faba62cc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
-                    className="inline-block h-8 w-8 rounded-full ring-2 ring-white"
+                    src={user2}
+                    className="inline-block size-8 rounded-full ring-2 ring-white bg-white"
                   />
                   <img
                     alt=""
-                    src="https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
-                    className="inline-block h-8 w-8 rounded-full ring-2 ring-white"
+                    src={user1}
+                    className="inline-block size-8 rounded-full ring-2 ring-white bg-white"
                   />
                   <img
                     alt=""
-                    src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2.25&w=256&h=256&q=80"
-                    className="inline-block h-8 w-8 rounded-full ring-2 ring-white"
+                    src={user2}
+                    className="inline-block size-8 rounded-full ring-2 ring-white bg-white"
                   />
                   <img
                     alt=""
-                    src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
-                    className="inline-block h-8 w-8 rounded-full ring-2 ring-white"
+                    src={user1}
+                    className="inline-block size-8 rounded-full ring-2 ring-white bg-white"
                   />
                 </div>
                 <h6 className="text-black">90k + reviews</h6>
-              </div>
+              </div> */}
               <p className="mt-6 text-lg leading-8 text-gray-600">
                 Our UX design services focus on creating intuitive and
                 user-friendly interfaces that optimize customer satisfaction.
@@ -168,7 +164,7 @@ export const Main = ({ scrollToSection }) => {
 
             <button
               onClick={handleScroll}
-              className="mt-4 md:mt-0 text-md font-semibold leading-6 text-white flex w-max items-center gap-3 py-1 px-3 bg-[#1d37ec] rounded-full"
+              className="mt-4 md:mt-0 text-md font-semibold leading-6 text-white flex w-max items-center gap-3 py-2 px-3 bg-[#1d37ec] rounded-full"
             >
               Scroll Down
               <span aria-hidden="true" className="bg-white p-1 rounded-full">

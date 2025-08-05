@@ -1,7 +1,7 @@
 import React from "react";
-import img1 from "../assets/images/custom-mobile-app.png";
-import img2 from "../assets/images/custom-cms-web-app.png";
-import img3 from "../assets/images/it-staff-augmentation.png";
+import img1 from "../assets/images/10354235_4428861.jpg";
+import img2 from "../assets/images/10276838_4380747.jpg";
+import img3 from "../assets/images/18301797_5882087.jpg";
 import { FaArrowRight } from "react-icons/fa";
 
 export const SecondSec = () => {
@@ -22,11 +22,11 @@ export const SecondSec = () => {
 
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 px-3 mt-8">
           <div className="second-sec-card-main-div relative bg-[#1f1e1e] text-[#4d4ffe] hover:bg-[#1d37ec] hover:text-white p-5 flex flex-col h-full transition-all duration-300 rounded-md">
-            {/* <div className=""> */}
-            <h3 className="text-[32px] border-b border-[#aaaa] pb-1 mb-1 h-[25%] font-bold">
-              Custom Mobile App Development
-            </h3>
-            {/* </div> */}
+            <div className="h-[100px] flex items-center w-full border-b border-[#aaaa]">
+              <h3 className="text-[32px]  pb-1 font-bold leading-tight">
+                Custom Mobile App Development
+              </h3>
+            </div>
             <p className="flex-grow text-[#8f8e8e] my-3 text-lg">
               We design and develop mobile apps that are fast, reliable, and
               easy to use. Whether it’s iOS, Android, or cross-platform our apps
@@ -41,9 +41,11 @@ export const SecondSec = () => {
           </div>
 
           <div className="second-sec-card-main-div relative bg-[#1f1e1e] text-[#4d4ffe] hover:bg-[#1d37ec] hover:text-white p-5 flex flex-col h-full transition-all duration-300 rounded-md">
-            <h3 className="text-[32px] border-b border-[#aaaa] pb-1 mb-1 h-[25%] font-bold">
-              Custom CMS / Web App Development
-            </h3>
+            <div className="h-[100px] flex items-center w-full border-b border-[#aaaa]">
+              <h3 className="text-[32px]  pb-1 font-bold leading-tight">
+                Custom CMS / Web App Development
+              </h3>
+            </div>
             <p className="flex-grow text-[#8f8e8e] my-3 text-lg">
               We create custom web applications and CMS platforms tailored to
               your business needs. Our solutions are user-friendly, scalable,
@@ -59,9 +61,11 @@ export const SecondSec = () => {
           </div>
 
           <div className="second-sec-card-main-div relative bg-[#1f1e1e] text-[#4d4ffe] hover:bg-[#1d37ec] hover:text-white p-5 flex flex-col h-full transition-all duration-300 rounded-md">
-            <h3 className="text-[32px] border-b border-[#aaaa] pb-1 mb-1 h-[25%] font-bold">
-              UI/UX Design Services
-            </h3>
+            <div className="h-[100px] flex items-center w-full border-b border-[#aaaa]">
+              <h3 className="text-[32px]  pb-1 font-bold leading-tight">
+                UI/UX Design Services
+              </h3>
+            </div>
             <p className="flex-grow text-[#8f8e8e] my-3 text-lg">
               We design clean, user-focused digital experiences through user
               research, wireframing, visual design, and UX audits. From
@@ -70,7 +74,7 @@ export const SecondSec = () => {
               and drive results.
             </p>
             <img
-              src={img2}
+              src={img3}
               className="w-full h-[200px] object-cover"
               alt="IT Staff Augmentation"
             />

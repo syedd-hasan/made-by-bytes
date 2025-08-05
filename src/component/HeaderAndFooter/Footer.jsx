@@ -1,7 +1,9 @@
 import React from "react";
 import logo from "../assets/logo/made-by-bytes-logo.png";
 import logoText from "../assets/logo/made_by_bytes.png";
-import { IoIosArrowForward } from "react-icons/io";
+import { IoIosArrowForward, IoLogoYoutube } from "react-icons/io";
+import { FaBehanceSquare, FaFacebookSquare, FaLinkedin } from "react-icons/fa";
+import { FaSquareInstagram } from "react-icons/fa6";
 
 export const Footer = () => {
   return (
@@ -17,12 +19,42 @@ export const Footer = () => {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
           <div className="mt-3">
-            <p className="text-[#b5b5b5]">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore
-              fugiat officia voluptates provident eius, tenetur expedita eum, a,
-              corporis architecto consequatur blanditiis! Eius reprehenderit
-              consectetur praesentium et, ipsa expedita soluta?
-            </p>
+            <div>
+              <h4 className="text-white text-[20px]">Get in touch</h4>
+              <ul className="text-[#b5b5b5] mt-4 space-y-1">
+                <li>12-C/II, Lane 6, Bukhari Comm - DHA - Karachi, 7550</li>
+                {/* <li>About Us</li> */}
+              </ul>
+              <div className="flex items-center gap-2 mt-3">
+                <a href="https://www.facebook.com/uixify" target="_blank">
+                  <FaFacebookSquare className="text-white hover:text-[#1d37ec] transition duration-200 hover:scale-125 text-2xl" />
+                </a>
+                <a
+                  href="https://www.instagram.com/uixify.design"
+                  target="_blank"
+                >
+                  <FaSquareInstagram className="text-white hover:text-[#1d37ec] transition duration-200 hover:scale-125 text-2xl" />
+                </a>
+                <a
+                  href="https://www.linkedin.com/company/uixify"
+                  target="_blank"
+                >
+                  <FaLinkedin className="text-white hover:text-[#1d37ec] transition duration-200 hover:scale-125 text-2xl" />
+                </a>
+                <a href="https://www.behance.net/UIXIFY" target="_blank">
+                  <FaBehanceSquare className="text-white hover:text-[#1d37ec] transition duration-200 hover:scale-125 text-2xl" />
+                </a>
+                {/* <a href="https://www.upwork.com/agencies/1822787120111267840/">
+                    <FaSquareUpwork className="text-white hover:text-[#1d37ec] transition duration-200 hover:scale-125 text-2xl" />
+                  </a> */}
+                <a
+                  href="https://www.youtube.com/@UIXIFY.DESIGN"
+                  target="_blank"
+                >
+                  <IoLogoYoutube className="text-white hover:text-[#1d37ec] transition duration-200 hover:scale-125 text-3xl" />
+                </a>
+              </div>
+            </div>
           </div>
 
           <div className="flex flex-col md:items-center">

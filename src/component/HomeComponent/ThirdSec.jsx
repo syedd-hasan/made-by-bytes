@@ -1,7 +1,7 @@
 import React from "react";
 import portImg1 from "../assets/images/port-img1.png";
 import portImg2 from "../assets/images/port-img2.png";
-import portImg3 from "../assets/images/port-img3.png";
+import portImg3 from "../assets/images/120791.jpg";
 import BgLogo from "../assets/images/bg-logo.png";
 
 export const ThirdSec = () => {
@@ -20,7 +20,7 @@ export const ThirdSec = () => {
           <div className=" col-span-2 items-center">
             <h2 className="text-2xl font-bold  text-gray-900 xl:text-[65px] md:text-[50px] uppercase leading-normal">
               Crafting solutions, one Byte at a time, to power your{" "}
-              <span className="inline-block rotate-[-1.86deg] bg-lilt-sec px-2.5 rounded-xl md:rounded-3xl shadow-sm font-bold ">
+              <span className="inline-block rotate-[-1.86deg] bg-lilt-sec px-2.5 rounded-xl  md:rounded-3xl shadow-sm font-bold ">
                 <span className="inline-block rotate-[1.86deg] text-white font-semibold font-bold ">
                   digital future
                 </span>
@@ -56,7 +56,7 @@ export const ThirdSec = () => {
             <img
               src={portImg3}
               alt="Description 3"
-              className="md:absolute bottom-0 left-1/2 md:transform md:-translate-x-1/2 object-cover md:z-20"
+              className="md:absolute bottom-0 left-1/2 md:transform md:-translate-x-1/2 object-cover md:z-20 rounded-tl-[200px]"
             />
           </div>
         </div>
