@@ -29,16 +29,10 @@ export const Footer = () => {
                 <a href="https://www.facebook.com/uixify" target="_blank">
                   <FaFacebookSquare className="text-white hover:text-[#1d37ec] transition duration-200 hover:scale-125 text-2xl" />
                 </a>
-                <a
-                  href="https://www.instagram.com/uixify.design"
-                  target="_blank"
-                >
+                <a href="#" target="_blank">
                   <FaSquareInstagram className="text-white hover:text-[#1d37ec] transition duration-200 hover:scale-125 text-2xl" />
                 </a>
-                <a
-                  href="https://www.linkedin.com/company/uixify"
-                  target="_blank"
-                >
+                <a href="#" target="_blank">
                   <FaLinkedin className="text-white hover:text-[#1d37ec] transition duration-200 hover:scale-125 text-2xl" />
                 </a>
                 <a href="https://www.behance.net/UIXIFY" target="_blank">
@@ -47,10 +41,7 @@ export const Footer = () => {
                 {/* <a href="https://www.upwork.com/agencies/1822787120111267840/">
                     <FaSquareUpwork className="text-white hover:text-[#1d37ec] transition duration-200 hover:scale-125 text-2xl" />
                   </a> */}
-                <a
-                  href="https://www.youtube.com/@UIXIFY.DESIGN"
-                  target="_blank"
-                >
+                <a href="#" target="_blank">
                   <IoLogoYoutube className="text-white hover:text-[#1d37ec] transition duration-200 hover:scale-125 text-3xl" />
                 </a>
               </div>

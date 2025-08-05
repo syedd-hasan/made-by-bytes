@@ -143,14 +143,14 @@ export const FifthSec = () => {
         <div className="">
           {[
             {
-              title: "Custom Mobile App Development",
+              title: "Mobile App Development",
               description:
-                "We craft high-performance mobile apps for iOS, Android, and cross-platform needs using React Native, Flutter, and other modern tools designed to be fast, reliable, and easy to use, helping your business grow and retain users.",
+                "From design to deployment, we develop smooth mobile apps using React Native, Flutter, and powerful backend stacks like Firebase and Supabase ensuring a seamless experience across platforms.",
             },
             {
-              title: "Custom CMS / Web App Development",
+              title: "Custom WordPress Development",
               description:
-                "Tailored CMS and web app solutions built with technologies like Next.js, Remix, and headless CMS platforms (Strapi, Sanity, Contentful) giving you scalable, efficient, and easy to manage digital tools.",
+                "We deliver fully customized, fast, and easy-to-manage WordPress websites perfect for businesses that want flexibility and control, without any tech hassle.",
             },
             {
               title: "IT Staff Augmentation",
@@ -161,16 +161,6 @@ export const FifthSec = () => {
               title: "Custom Web Development",
               description:
                 "We build secure and scalable websites with engaging user experiences using tools like Next.js, Astro, and Tailwind optimized for performance, growth, and long-term success.",
-            },
-            {
-              title: "Mobile App Development",
-              description:
-                "From design to deployment, we develop smooth mobile apps using React Native, Flutter, and powerful backend stacks like Firebase and Supabase ensuring a seamless experience across platforms.",
-            },
-            {
-              title: "Custom WordPress Development",
-              description:
-                "We deliver fully customized, fast, and easy-to-manage WordPress websites perfect for businesses that want flexibility and control, without any tech hassle.",
             },
           ].map(({ title, description }, index) => (
             <div
