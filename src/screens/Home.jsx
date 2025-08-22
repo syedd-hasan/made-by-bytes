@@ -2,7 +2,7 @@ import React, { useRef } from "react";
 import { Main } from "../component/HomeComponent/Main";
 import { SecondSec } from "../component/HomeComponent/SecondSec";
 import { ThirdSec } from "../component/HomeComponent/ThirdSec";
-import { FourthSec } from "../component/HomeComponent/FourthSec";
+import { Pricing } from "../component/HomeComponent/Pricing";
 import { FifthSec } from "../component/HomeComponent/FifthSec";
 import { SixSec } from "../component/HomeComponent/SixSec";
 
@@ -15,7 +15,7 @@ export const Home = () => {
         <SecondSec />
       </div>
       <ThirdSec />
-      <FourthSec />
+      <Pricing />
       <FifthSec />
       <SixSec />
     </>
