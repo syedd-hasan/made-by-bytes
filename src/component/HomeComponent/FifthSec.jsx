@@ -124,7 +124,7 @@ export const FifthSec = () => {
       <div className="container mx-auto md:py-[60px] px-4">
         <div className="grid md:grid-cols-3 py-[30px] border-b border-[#808080]">
           <div className="col-span-2">
-            <h2 className="text-2xl font-bold text-white xl:text-[65px] md:text-[50px] uppercase leading-normal">
+            <h2 className="text-2xl font-bold text-white  min-[1541px]:text-[65px]  max-[1540px]:text-[50px] uppercase leading-normal">
               We deliver{" "}
               <span className="inline-block rotate-[-2.86deg] bg-lilt-sec px-2.5 rounded-xl  md:rounded-3xl  shadow-sm">
                 <span className="inline-block rotate-[2.86deg] text-white font-semibold ">

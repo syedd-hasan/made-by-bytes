@@ -112,7 +112,7 @@ export const Main = ({ scrollToSection }) => {
           </div> */}
 
           <div className="text-center flex flex-col items-center">
-            <h1 className="text-4xl font-bold text-gray-900 2xl:text-[85px] md:text-[70px] text-[50px] leading-normal uppercase">
+            <h1 className="text-4xl font-bold text-gray-900 min-[1541px]:text-[85px]  max-[1540px]:text-[70px] max-[1300px]:text-[55px] max-[768px]:text-[65px] text-[50px] leading-normal uppercase">
               Crafting Smart Digital Solutions <br /> one{" "}
               <span className="inline-block rotate-[3.86deg] bg-lilt-sec px-2.5 rounded-3xl shadow-sm">
                 <span className="inline-block rotate-[-3.86deg] text-white font-semibold">
@@ -121,7 +121,7 @@ export const Main = ({ scrollToSection }) => {
               </span>{" "}
               at a time.
             </h1>
-            <p className="mt-4 w-full md:w-[60%] text-center px-4  text-gray-600 md:text-2xl">
+            <p className="mt-4 w-full md:w-[60%] text-center px-4  text-gray-600 max-[1540px]:text-2xl  max-[1300px]:text-lg">
               Let our experienced team help you grow with custom websites,
               mobile apps, and dedicated tech resources. We combine skill and
               strategy to support your digital transformation giving your
@@ -129,7 +129,7 @@ export const Main = ({ scrollToSection }) => {
             </p>
           </div>
 
-          <div className="md:mt-[70px] mt-6 flex flex-col md:flex-row items-center justify-center gap-6 w-full md:w-[70%] px-4">
+          <div className=" max-[1540px]:mt-[70px] max-[1300px]:mt-2 mt-6 flex flex-col md:flex-row items-center justify-center gap-6 w-full md:w-[70%] px-4">
             <div className="md:w-[40%]">
               {/* <div className="flex gap-3 items-center">
                 <div className="flex -space-x-2 overflow-hidden">
@@ -156,7 +156,7 @@ export const Main = ({ scrollToSection }) => {
                 </div>
                 <h6 className="text-black">90k + reviews</h6>
               </div> */}
-              <p className="mt-6 text-lg leading-8 text-gray-600">
+              <p className="mt-6 lg:text-lg sm:text-sm leading-8 text-gray-600">
                 Our UX design services focus on creating intuitive and
                 user-friendly interfaces that optimize customer satisfaction.
               </p>

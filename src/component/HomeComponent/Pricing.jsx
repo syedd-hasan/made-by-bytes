@@ -8,7 +8,7 @@ export const Pricing = () => {
     <div className="bg-black md:py-[60px] py-[30px]">
       <div className="container mx-auto  px-4 ">
         <div className="grid md:grid-cols-1">
-          <h2 className="text-center text-2xl font-bold  text-[white] xl:text-[65px] md:text-[50px] uppercase leading-normal">
+          <h2 className="text-center text-2xl font-bold  text-[white]  min-[1541px]:text-[65px]  max-[1540px]:text-[50px] uppercase leading-normal">
             Explore flexible{" "}
             <span className="inline-block rotate-[1.86deg] bg-lilt-sec px-2.5 rounded-xl  md:rounded-3xl  shadow-sm">
               <span className="inline-block rotate-[-1.86deg] text-white font-semibold ">

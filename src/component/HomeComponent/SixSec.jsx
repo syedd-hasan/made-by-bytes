@@ -10,7 +10,7 @@ export const SixSec = () => {
       <div className="grid grid-cols-1 md:grid-cols-3">
         <div className="col-span-2">
           <h6 className="text-[#5964fe]">Why choose Madebybytes</h6>
-          <h2 className="text-2xl font-bold text-black xl:text-[65px] md:text-[50px] uppercase leading-normal">
+          <h2 className="text-2xl font-bold text-black min-[1541px]:text-[65px]  max-[1540px]:text-[50px] uppercase leading-normal">
             Discover the made by bytes difference
           </h2>
         </div>
@@ -81,7 +81,7 @@ export const SixSec = () => {
         <h6 className="text-[#5964fe] text-center md:mb-8">
           Talk to our experts
         </h6>
-        <h2 className="text-2xl font-bold text-black xl:text-[65px] md:text-[50px] uppercase leading-normal text-center">
+        <h2 className="text-2xl font-bold text-black  min-[1541px]:text-[65px]  max-[1540px]:text-[50px] uppercase leading-normal text-center">
           contact us for custom <br />
           web and mobile app development
         </h2>
