@@ -156,10 +156,10 @@ export const Main = ({ scrollToSection }) => {
                 </div>
                 <h6 className="text-black">90k + reviews</h6>
               </div> */}
-              <p className="mt-6 lg:text-lg sm:text-sm leading-8 text-gray-600">
+{/*               <p className="mt-6 lg:text-lg sm:text-sm leading-8 text-gray-600">
                 Our UX design services focus on creating intuitive and
                 user-friendly interfaces that optimize customer satisfaction.
-              </p>
+              </p> */}
             </div>
 
             <button
