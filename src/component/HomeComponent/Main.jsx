@@ -7,12 +7,17 @@ import user2 from "../assets/images/user2.png";
 import user3 from "../assets/images/user2.png";
 import Byd from "../assets/images/Byd.svg";
 import Carrefour from "../assets/images/Carrefour.svg";
-import Mondelez from "../assets/images/Mondelez.svg";
+// import Mondelez from "../assets/images/Mondelez.svg";
 // import NewEagle from "../assets/images/New-Eagle.svg";
 // import Pepsi from "../assets/images/Pepsico.svg";
 import Xiaomi from "../assets/images/Xiaomi.svg";
 import Suzuki from "../assets/images/Suzuki.svg";
 import Zong from "../assets/images/Zong.svg";
+import autosoft from "../assets/images/autosoft.svg";
+import jandaIA from "../assets/images/jandaIA.svg";
+import towardseterinity from "../assets/images/towardseterinity.svg";
+import netfeasa from "../assets/images/netfeasa.svg";
+import magicbook from "../assets/images/magicbook.svg";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
@@ -28,7 +33,7 @@ export const Main = ({ scrollToSection }) => {
   return (
     <>
       <div
-        className="container mx-auto relative isolate pt-14 "
+        className="container mx-auto relative isolate pt-14 md:pt-2 2xl:pt-14"
         style={{
           backgroundImage: `url(${BgLogo})`,
           backgroundRepeat: "no-repeat",
@@ -129,7 +134,7 @@ export const Main = ({ scrollToSection }) => {
             </p>
           </div>
 
-          <div className=" max-[1540px]:mt-[70px] max-[1300px]:mt-2 mt-6 flex flex-col md:flex-row items-center justify-center gap-6 w-full md:w-[70%] px-4">
+          <div className="2xl:mt-20  md:mt-2 mt-6 flex flex-col md:flex-row items-center justify-center gap-6 w-full md:w-[70%] px-4">
             <div className="md:w-[40%]">
               {/* <div className="flex gap-3 items-center">
                 <div className="flex -space-x-2 overflow-hidden">
@@ -156,7 +161,7 @@ export const Main = ({ scrollToSection }) => {
                 </div>
                 <h6 className="text-black">90k + reviews</h6>
               </div> */}
-{/*               <p className="mt-6 lg:text-lg sm:text-sm leading-8 text-gray-600">
+              {/*               <p className="mt-6 lg:text-lg sm:text-sm leading-8 text-gray-600">
                 Our UX design services focus on creating intuitive and
                 user-friendly interfaces that optimize customer satisfaction.
               </p> */}
@@ -164,7 +169,7 @@ export const Main = ({ scrollToSection }) => {
 
             <button
               onClick={handleScroll}
-              className="mt-4 md:mt-0 text-md font-semibold leading-6 text-white flex w-max items-center gap-3 py-2 px-3 bg-[#1d37ec] rounded-full"
+              className="mt-4 sm:mt-0 text-md font-semibold leading-6 text-white flex w-max items-center gap-3 py-2 px-3 bg-[#1d37ec] rounded-full"
             >
               Scroll Down
               <span aria-hidden="true" className="bg-white p-1 rounded-full">
@@ -173,7 +178,7 @@ export const Main = ({ scrollToSection }) => {
             </button>
           </div>
 
-          <div className=" py-24 sm:py-20">
+          <div className=" py-24 sm:py-10">
             <div className="mx-auto max-w-7xl px-6 lg:px-8">
               <h2 className="text-center size-fit mx-auto text-2xl font-bold leading-8 text-gray-900 capitalize">
                 The who's who of happy clients
@@ -235,7 +240,7 @@ export const Main = ({ scrollToSection }) => {
                       className=" w-full object-contain lg:col-span-1 gray-color mx-2 md:mx-0"
                     />
                   </SwiperSlide>
-                  <SwiperSlide>
+                  {/* <SwiperSlide>
                     <img
                       alt="Mondelez"
                       src={Mondelez}
@@ -243,7 +248,7 @@ export const Main = ({ scrollToSection }) => {
                       height={48}
                       className=" w-full object-contain sm:col-start-2 lg:col-span-1 gray-color mx-2 md:mx-0"
                     />
-                  </SwiperSlide>
+                  </SwiperSlide> */}
                   <SwiperSlide>
                     <img
                       alt="Xiaomi"
@@ -263,6 +268,51 @@ export const Main = ({ scrollToSection }) => {
                     />
                   </SwiperSlide>
                   <SwiperSlide>
+                    <div className="h-[76px] md:h-[115px] md:flex md:items-center  max-w-[100px]  md:max-w-[150px]">
+                      <img
+                        alt={`Company logo`}
+                        src={autosoft}
+                        className="object-contain w-full  new-logo  gray-color"
+                      />
+                    </div>
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <div className="h-[76px] md:h-[115px] md:flex md:items-center  max-w-[100px]  md:max-w-[150px]">
+                      <img
+                        alt={`Company logo`}
+                        src={jandaIA}
+                        className="object-contain w-full  new-logo  gray-color"
+                      />
+                    </div>
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <div className="h-[76px] md:h-[115px] md:flex md:items-center  max-w-[100px]  md:max-w-[150px]">
+                      <img
+                        alt={`Company logo`}
+                        src={towardseterinity}
+                        className="object-contain w-full new-logo gray-color"
+                      />
+                    </div>
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <div className="h-[76px] md:h-[115px] md:flex md:items-center  max-w-[100px]  md:max-w-[150px]">
+                      <img
+                        alt={`Company logo`}
+                        src={netfeasa}
+                        className="object-contain w-full new-logo gray-color"
+                      />
+                    </div>
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <div className="h-[76px] md:h-[115px] md:flex md:items-center  max-w-[100px]  md:max-w-[150px]">
+                      <img
+                        alt={`Company logo`}
+                        src={magicbook}
+                        className="object-contain w-full new-logo gray-color"
+                      />
+                    </div>
+                  </SwiperSlide>
+                  {/* <SwiperSlide>
                     <img
                       alt="Byd"
                       src={Byd}
@@ -315,7 +365,7 @@ export const Main = ({ scrollToSection }) => {
                       height={48}
                       className="col-start-2  w-full object-contain sm:col-start-auto lg:col-span-1 gray-color mx-2 md:mx-0"
                     />
-                  </SwiperSlide>
+                  </SwiperSlide> */}
                 </Swiper>
               </div>
             </div>

@@ -24,10 +24,13 @@ export const Pricing = () => {
             className="bg-white md:py-10 p-6 flex flex-col gap-6 rounded-xl shadow-md 
                   transform transition-all duration-300 group hover:scale-105 hover:bg-[#1d37ec] hover:text-white"
           >
-            <h3 className="text-2xl font-semibold">Website Designing</h3>
-            <p className="text-6xl font-bold">$650</p>
+            <h3 className="text-2xl font-semibold">
+              Custom Mobile App Development
+            </h3>
+            <p className="text-6xl font-bold">$500</p>
             <p className="text-xl text-gray-600 group-hover:text-white">
-              Best for Startup business owners who needs website for business.
+              Custom mobile apps for iOS, Android, and cross-platform solutions.
+              (For Custom Mobile App)
             </p>
             <button
               className="w-full bg-[#1d37ec] text-white text-lg py-4 rounded-md 
@@ -37,22 +40,28 @@ export const Pricing = () => {
             </button>
             <ul className="flex flex-col gap-2 text-xl">
               <li className="flex items-center gap-2">
-                <IoMdCheckmark /> Responsive Design (Mobile, Tablet, Desktop)
+                <IoMdCheckmark /> iOS & Android App Development
               </li>
               <li className="flex items-center gap-2">
-                <IoMdCheckmark /> SEO-Optimized Structure
+                <IoMdCheckmark />
+                Cross-Platform (React Native / Flutter)
               </li>
               <li className="flex items-center gap-2">
-                <IoMdCheckmark /> Admin Panel to Manage Content
+                <IoMdCheckmark />
+                Custom Features Based on Business Needs
               </li>
               <li className="flex items-center gap-2">
-                <IoMdCheckmark /> Contact Form Integration
+                <IoMdCheckmark /> API Integration (Payments, Maps, etc.)
               </li>
               <li className="flex items-center gap-2">
-                <IoMdCheckmark /> SMM and Whatsapp Integration
+                <IoMdCheckmark />
+                Push Notifications & Real-Time Updates
               </li>
               <li className="flex items-center gap-2">
-                <IoMdCheckmark /> Technical Support
+                <IoMdCheckmark /> App Store & Play Store Deployment
+              </li>
+              <li className="flex items-center gap-2">
+                <IoMdCheckmark /> Post-Launch Maintenance & Support
               </li>
             </ul>
           </div>
@@ -62,11 +71,13 @@ export const Pricing = () => {
             className="bg-white md:py-10 p-6 flex flex-col gap-6 rounded-xl shadow-md 
                   transform transition-all duration-300 group hover:scale-105  hover:bg-[#1d37ec] hover:text-white"
           >
-            <h3 className="text-2xl font-semibold">Website Hosting</h3>
-            <p className="text-6xl font-bold">$230</p>
+            <h3 className="text-2xl font-semibold">
+              Custom CMS / Web App Development
+            </h3>
+            <p className="text-6xl font-bold">$400</p>
             <p className="text-xl text-gray-600 group-hover:text-white">
-              Fast, secure, and reliable web hosting for businesses of all
-              sizes.
+              Powerful, scalable web apps & CMS tailored for your business
+              needs. (For CMS)
             </p>
             <button
               className="w-full bg-[#1d37ec] text-white text-lg py-4 rounded-md 
@@ -76,22 +87,31 @@ export const Pricing = () => {
             </button>
             <ul className="flex flex-col gap-2 text-xl">
               <li className="flex items-center gap-2">
-                <IoMdCheckmark /> 10 GB SSD Storage
+                <IoMdCheckmark /> Scalable & Secure CMS Development
               </li>
               <li className="flex items-center gap-2">
-                <IoMdCheckmark /> Free SSL Certificate and Malware Scanner
+                <IoMdCheckmark />
+                Custom Dashboard & Admin Panel
               </li>
               <li className="flex items-center gap-2">
-                <IoMdCheckmark /> 10 Business Email Address
+                <IoMdCheckmark />
+                Role-Based Access Control
               </li>
               <li className="flex items-center gap-2">
-                <IoMdCheckmark /> cPanel Access
+                <IoMdCheckmark />
+                Database Integration & Management
               </li>
               <li className="flex items-center gap-2">
-                <IoMdCheckmark /> Weekly Backups
+                <IoMdCheckmark />
+                API & Third-Party Service Integration
               </li>
               <li className="flex items-center gap-2">
-                <IoMdCheckmark /> 24/7 Support
+                <IoMdCheckmark />
+                Cloud Hosting & Deployment Support
+              </li>
+              <li className="flex items-center gap-2">
+                <IoMdCheckmark />
+                Continuous Maintenance & Upgrades
               </li>
             </ul>
           </div>
@@ -101,11 +121,11 @@ export const Pricing = () => {
             className="bg-white md:py-10 p-6 flex flex-col gap-6 rounded-xl shadow-md 
                   transform transition-all duration-300 group hover:scale-105 hover:bg-[#1d37ec] hover:text-white"
           >
-            <h3 className="text-2xl font-semibold">Customized Software</h3>
-            <p className="text-6xl font-bold">$000</p>
+            <h3 className="text-2xl font-semibold">UI/UX Design Services</h3>
+            <p className="text-6xl font-bold">$300</p>
             <p className="text-xl text-gray-600 group-hover:text-white">
-              Smart, efficient, and fully customize software solutions for any
-              industry.
+              Best for startups & businesses looking for modern, user-friendly
+              designs. (For UI/UX)
             </p>
             <button
               className="w-full bg-[#1d37ec] text-white text-lg py-4 rounded-md 
@@ -115,22 +135,29 @@ export const Pricing = () => {
             </button>
             <ul className="flex flex-col gap-2 text-xl">
               <li className="flex items-center gap-2">
-                <IoMdCheckmark /> ERP - CRM - PMS - HMS
+                <IoMdCheckmark /> User Research & Wireframing
               </li>
               <li className="flex items-center gap-2">
-                <IoMdCheckmark /> Custom Web Application
+                <IoMdCheckmark />
+                Interactive Prototyping
               </li>
               <li className="flex items-center gap-2">
-                <IoMdCheckmark /> Customized Mobile Application
+                <IoMdCheckmark /> Modern, Responsive Web & Mobile UI Design
               </li>
               <li className="flex items-center gap-2">
-                <IoMdCheckmark /> Website Management and Server Support
+                <IoMdCheckmark />
+                Design Systems & Style Guides
               </li>
               <li className="flex items-center gap-2">
-                <IoMdCheckmark /> Chatbot - AI Development
+                <IoMdCheckmark /> Conversion-Focused Landing Pages
               </li>
               <li className="flex items-center gap-2">
-                <IoMdCheckmark /> Social Media Marketing - SEO
+                <IoMdCheckmark />
+                Usability Testing & Iteration
+              </li>
+              <li className="flex items-center gap-2">
+                <IoMdCheckmark />
+                Collaboration via Figma/Adobe XD
               </li>
             </ul>
           </div>
