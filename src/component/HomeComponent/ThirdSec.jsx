@@ -18,7 +18,7 @@ export const ThirdSec = () => {
       >
         <div className="grid md:grid-cols-3 mb-4 gap-4 ">
           <div className=" col-span-2 items-center">
-            <h2 className="text-2xl font-bold  text-gray-900 min-[1541px]:text-[65px]  max-[1540px]:text-[50px] uppercase leading-normal">
+            <h2 className="text-2xl font-bold  text-gray-900 min-[1541px]:text-[65px]  max-[1540px]:text-[40px] uppercase leading-normal">
               Crafting solutions, one Byte at a time, to power your{" "}
               <span className="inline-block rotate-[-1.86deg] bg-lilt-sec px-2.5 rounded-xl  md:rounded-3xl shadow-sm font-bold ">
                 <span className="inline-block rotate-[1.86deg] text-white font-semibold font-bold ">
